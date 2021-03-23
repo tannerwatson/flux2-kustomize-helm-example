@@ -2,5 +2,12 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: flux-system
 resources:
+  - aad-pod-identity.yaml
   - bitnami.yaml
+  - kured.yaml
   - podinfo.yaml
+  - prometheus-community.yaml
+  - splunk-connect-for-kubernetes.yaml
+  - vmware-tanzu.yaml
+
+

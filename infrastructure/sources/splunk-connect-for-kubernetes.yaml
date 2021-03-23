@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: splunk-connect-for-kubernetes
+spec:
+  interval: 30m
+  url:   https://splunk.github.io/splunk-connect-for-kubernetes
